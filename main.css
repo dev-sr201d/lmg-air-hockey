@@ -1,0 +1,23 @@
+body {
+    background-color: #ddffdd;
+    overflow: hidden;
+}
+
+.gd-game-board {
+    position: absolute;
+    top: calc(50vh - 300px);
+    left: calc(50vw - 300px);
+    width: 600px;
+    height: 400px;
+    border: 10px outset #666688;
+}
+
+.gd-ball {
+    position: absolute;
+    top: calc(50vh - 115px);
+    left: calc(50vw - 15px);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: radial-gradient(at 30% 30%, #bbffbb, #66aa66);
+}
